@@ -110,6 +110,14 @@ public class honorGaji {
                 }
             }
         });
+        keluarDanPrintButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null, "Halo " + inputNamaKaryawan.getText() + "" +
+                        "\nGaji bersih anda senilai Rp. " + gajiBersih);
+                System.exit(0);
+            }
+        });
     }
 
     private void calculate(){
