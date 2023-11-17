@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PPL:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PPL_jar</output-path>
+    <root id="archive" name="PPL.jar">
+      <element id="module-output" name="PPL" />
+    </root>
+  </artifact>
+</component>
